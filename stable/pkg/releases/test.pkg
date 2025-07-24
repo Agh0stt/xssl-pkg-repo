@@ -1,0 +1,4 @@
+// .pkg/test.pkg
+function say(text) {
+  console.log("<< hello >> " + text);
+}
