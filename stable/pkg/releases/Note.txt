@@ -1,0 +1,8 @@
+note: in get-repo we have the package files as *.pkg that can we run .
+for example 
+get-pkg install test -y 
+get-pkg uninstall test -y 
+get-pkg list pkg
+get-pkg search test --local // note --local searches in the .pkg folder 
+get-pkg search test // without --local flag searches here (the repo) 
+get-pkg reinstall test -y
